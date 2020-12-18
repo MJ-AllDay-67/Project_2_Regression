@@ -7,17 +7,17 @@
 Mission:  Educate potential buyers on what housing aspects and geographical locations increase the prices of homes.
 
 Steps:
-1. Research for data and develop a plan.
+1. Research data and develop a plan.
 2. Clean the data
 3. Reorganize the dataset
-4. Check for multicollinieary and other issues
+4. Check for multicollinearity and other issues
 5. Make adjustments to the data accordingly
 6. Run the regression model
 7. Present findings
 
 ## Methodology
 
-For this project, we were given the kc_house_data.csv. THe dataset countained information about houses, ranging from the year built, to the number of bedrooms and bathrooms, to the total square feet of living space of the closest 15 neighbors.
+For this project, we were given the kc_house_data.csv. The dataset countained information about houses, ranging from the year built, to the number of bedrooms and bathrooms, to the total square feet of living space of the closest 15 neighbors.
 
 After taking care any possible duplicate and null values, we eliminated any possible outliers. Then we checked for any multicollinearity issues. Next, we made sure to eliminate any columns that were not adequate predictors, and normalized the data. Finally, we ran simple linear and multilinear regression models until we found an acceptable result. The dependant variable for these models was price.
 
