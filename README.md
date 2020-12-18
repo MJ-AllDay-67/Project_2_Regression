@@ -4,7 +4,7 @@
 
 ## Problem
 
-Mission:  Use regression modeling to analyze housing prices in the county.
+Mission:  Educate potential buyers on what housing aspects and geographical locations increase the prices of homes.
 
 Steps:
 1. Research for data and develop a plan.
