@@ -25,7 +25,7 @@ After taking care any possible duplicate and null values, we eliminated any poss
 
 In the new dataset, multicollinearity issues were found between the sqft_above and sqft_living columns. The sqft_living column had more correlations the price column so sqft_above was dropped to resolve the issue. Next, we moved on to columns that had the most linear relationships with price. Of the remaining columns, bathrooms, grade, sqft_living and sqft_living15 were the most linear.
 
-![graph1](.images/king_county_corr.png)
+![graph1](./images/king_county_corr.png)
 
 We used statsmodels to run an initial OLS model. The intial model came back with an R Squared of .519, but the Q-Q Plot showed issues with the residuals.
 
