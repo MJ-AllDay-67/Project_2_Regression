@@ -30,13 +30,11 @@ The mean of the residuals was 6.963e-14.
 
 ## Reccomendations
 
-![graph3](./features_barplot.png)
-
 There is a strong correlation between the price of a home and the number of bathrooms. If buyers are looking to save money, we recommend looking for a house with less than 2 bathrooms. If buyers are looking for a house on the higher-end of the market, we recommend looking for a house with at least 2.5 bathrooms
 
 As the living space of your neighbors (in terms of sqft) increases, price increases  For buyers, seeking a house on the lower end, we recommend to look for a house where the sqft of the neighbors is on the smaller end, anywhere below 1,500 sqft. For buyers looking at higher end homes, we would recommend buying where their neighbors have 2,500 sqft of living space or more.
 
-![graph4](./distance.png)
+![graph3](./distance.png)
 
 The closer the home is to a city, the more expensive it will be. We reccomend looking further away from a city if buyers are looking to save money. It is also more expensive to live near Bellevue than it is to live near Seattle.
 
@@ -63,9 +61,7 @@ For any additional questions, please contact Dave Brown: davebrown271@gmail.com 
 ## Repository Structure
 #### Main Page
     ├── README.md                              <- The top-level README for reviewers of this project
-    ├── housing_exploration.ipynb              <- The data analysis for the housing valuation
-    ├── housing_model.ipynb                    <- The linear regression modelling for the housing valuation
-    ├── Visualizations.ipynb                   <- Additional visuals to detail our findings
+    ├── regression_notebook.ipynb              <- The notebook for the regression analysis
     ├── data
         ├── kc_house_data.csv                  <- The original dataset used for this project
         ├── column_names.md                    <- Descriptions of the columns in the kc housing dataset
