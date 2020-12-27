@@ -22,11 +22,11 @@ After taking care any possible duplicate and null values, we eliminated any poss
 
 ## Results
 
-Our final model that had an R Squared value of .791.
+Our final model that had an R Squared value of .896.
 
 ![graph2](./finalmodel.png)
 
-The mean of the residuals was 6.963e-14.
+The mean of the residuals was -0.0000000000001862.
 
 ## Reccomendations
 
